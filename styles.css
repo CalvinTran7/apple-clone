@@ -5,6 +5,10 @@
   /* background-color: black; */
 }
 
+body {
+  padding-bottom: 200px;
+}
+
 header {
   background-color: black;
   text-align: center;
@@ -16,10 +20,121 @@ header nav a {
   display: inline-block;
   padding: 3px;
   font-size: 12px;
-  font-weight: ;
+}
+
+.iphone {
+  background-image: url("./images/1st.PNG");
+}
+
+.woman {
+  background-image: url("./images/6th.PNG");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.card {
+  background-image: url("./images/7th.PNG");
+}
+
+.hero {
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid white;
+  border-bottom: 0.6rem solid white;
+}
+
+.iphone-second {
+  background-image: url("./images/second-iphone.PNG");
+}
+
+.watch {
+  background-image: url("./images/watch.PNG");
+}
+
+.watch2 {
+  background-image: url("./images/5.PNG");
+}
+
+.airpods {
+  background-image: url("./images/4.PNG");
+}
+
+.multi-watches {
+  background-image: url("./images/multiple-watches.PNG");
+  background-size: auto;
+}
+
+.phone-spiral {
+  background-image: url("./images/phone-spiral.PNG");
+}
+
+.description {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.watch-title {
+  text-transform: uppercase;
+}
+
+.ultra {
+  color: rgb(235, 162, 27);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.iphone-btns a {
+  text-decoration: none;
+  color: blue;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.iphone-btns a span:hover {
+  border-bottom: 1px solid blue;
+}
+
+.space-mid {
+  padding-top: 5px;
+}
+
+.space-big {
+  padding-top: 10px;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
 }
 
 .logo {
   height: 18px;
   color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
