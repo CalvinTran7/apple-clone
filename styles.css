@@ -96,6 +96,22 @@ h3 {
   font-size: 18px;
 }
 
+.info {
+  background-color: rgb(228, 226, 226);
+}
+
+.info p {
+  padding: 5px;
+}
+
+.info p:first-child {
+  padding-top: 15px;
+}
+
+.info p:last-child {
+  padding-bottom: 15px;
+}
+
 .white {
   color: white;
 }
